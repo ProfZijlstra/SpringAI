@@ -1,4 +1,4 @@
-#SpringAI Example Project
+# SpringAI Example Project
 
 Code that demonstrates how to make a SpringAI project.
 
