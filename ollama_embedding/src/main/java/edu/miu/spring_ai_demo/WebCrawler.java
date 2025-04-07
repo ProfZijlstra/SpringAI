@@ -95,41 +95,41 @@ public class WebCrawler {
 
             logger.info("Crawled: " + url + " (" + pages.size() + " pages)");
 
-            // Find all links
-            // Elements links = doc.select("a[href]");
-            // link:
-            // for (Element link : links) {
-            //     String nextUrl = link.absUrl("href");
+            Find all links
+            Elements links = doc.select("a[href]");
+            link:
+            for (Element link : links) {
+                String nextUrl = link.absUrl("href");
 
-            //     for (String contains : urlContains) {
-            //         if (!nextUrl.contains(contains)) {
-            //             logger.debug("not crawling: " + nextUrl);
-            //             continue link;
-            //         }
-            //     }
+                for (String contains : urlContains) {
+                    if (!nextUrl.contains(contains)) {
+                        logger.debug("not crawling: " + nextUrl);
+                        continue link;
+                    }
+                }
 
-            //     for (String notContains : urlNotContains) {
-            //         if (nextUrl.contains(notContains)) {
-            //             logger.debug("not crawling: " + nextUrl);
-            //             continue link;
-            //         }
-            //     }
+                for (String notContains : urlNotContains) {
+                    if (nextUrl.contains(notContains)) {
+                        logger.debug("not crawling: " + nextUrl);
+                        continue link;
+                    }
+                }
 
-            //     // Only follow links within the same domain that we haven't visited yet
-            //     if (isSameDomain(nextUrl) && !visitedUrls.contains(nextUrl)) {
-            //         // Be polite - wait between requests
-            //         Thread.sleep(delayMs);
-            //         crawlPage(nextUrl);
-            //     }
-            // }
+                // Only follow links within the same domain that we haven't visited yet
+                if (isSameDomain(nextUrl) && !visitedUrls.contains(nextUrl)) {
+                    // Be polite - wait between requests
+                    Thread.sleep(delayMs);
+                    crawlPage(nextUrl);
+                }
+            }
 
         } catch (IOException e) {
             logger.error("Error crawling " + url + ": " + e.getMessage());
         } 
-        // catch (InterruptedException e) {
-        //     Thread.currentThread().interrupt();
-        //     logger.error("Crawling interrupted at " + url);
-        // }
+        catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            logger.error("Crawling interrupted at " + url);
+        }
     }
 
     private boolean isSameDomain(String url) {
