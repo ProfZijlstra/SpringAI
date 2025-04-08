@@ -95,7 +95,7 @@ public class WebCrawler {
 
             logger.info("Crawled: " + url + " (" + pages.size() + " pages)");
 
-            Find all links
+            // Find all links
             Elements links = doc.select("a[href]");
             link:
             for (Element link : links) {
