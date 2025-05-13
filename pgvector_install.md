@@ -48,6 +48,3 @@ CREATE TABLE IF NOT EXISTS vector_store (
 CREATE INDEX ON vector_store USING HNSW (embedding vector_cosine_ops);
 \q
 ```
-
-I initally got started by watching the following video (not that great):
-https://youtu.be/YoQZRKjgBkU?si=n01SYT0XIHa8aedg
