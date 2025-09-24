@@ -1,0 +1,24 @@
+meta {
+  name: add tool call
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/mcp
+  body: json
+  auth: inherit
+}
+
+headers {
+  Accept: application/json,text/event-stream
+  mcp-session-id: 81394239-1cbe-498a-818f-cc7f7b1005cc
+}
+
+body:json {
+  {"jsonrpc":"2.0","method":"tools/call","id":"47a57fe1-2","params":{"name":"add","arguments":{"a":2,"b":3}}}
+}
+
+settings {
+  encodeUrl: true
+}

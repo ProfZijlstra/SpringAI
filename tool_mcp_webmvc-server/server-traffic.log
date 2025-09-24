@@ -1,0 +1,68 @@
+> 2025/09/02 14:16:08.000660988  length=180 from=0 to=179
+{"jsonrpc":"2.0","method":"initialize","id":"21da41d7-0","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"Java SDK MCP Client","version":"1.0.0"}}}
+14:16:09,761 |-ERROR in ch.qos.logback.classic.PatternLayout("") - Empty or null pattern.
+> 2025/09/02 14:16:11.000532662  length=180 from=0 to=179
+{"jsonrpc":"2.0","method":"initialize","id":"b0a5fd4a-0","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"Java SDK MCP Client","version":"1.0.0"}}}
+< 2025/09/02 14:16:12.000043924  length=294 from=0 to=293
+{"jsonrpc":"2.0","id":"21da41d7-0","result":{"protocolVersion":"2024-11-05","capabilities":{"completions":{},"logging":{},"prompts":{"listChanged":true},"resources":{"subscribe":false,"listChanged":true},"tools":{"listChanged":true}},"serverInfo":{"name":"my-tools-server","version":"0.0.1"}}}
+> 2025/09/02 14:16:12.000326129  length=55 from=180 to=234
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+> 2025/09/02 14:16:12.000335757  length=70 from=235 to=304
+{"jsonrpc":"2.0","method":"tools/list","id":"21da41d7-1","params":{}}
+< 2025/09/02 14:16:12.000355430  length=829 from=294 to=1122
+{"jsonrpc":"2.0","id":"21da41d7-1","result":{"tools":[{"name":"add","description":"Adds two numbers together","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"First number"},"b":{"type":"integer","format":"int64","description":"Second number"}},"required":["a","b"],"additionalProperties":false}},{"name":"getCurrentDateTime","description":"Get the current date and time in the user's timezone","inputSchema":{"type":"object","properties":{},"required":[],"additionalProperties":false}},{"name":"subtract","description":"Subtracts number b from a","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"Number a"},"b":{"type":"integer","format":"int64","description":"Number b"}},"required":["a","b"],"additionalProperties":false}}]}}
+> 2025/09/02 14:16:12.000386764  length=112 from=305 to=416
+{"jsonrpc":"2.0","method":"tools/call","id":"21da41d7-2","params":{"name":"getCurrentDateTime","arguments":{}}}
+< 2025/09/02 14:16:12.000431236  length=157 from=1123 to=1279
+{"jsonrpc":"2.0","id":"21da41d7-2","result":{"content":[{"type":"text","text":"\\"2025-09-02T14:16:12.405118529-05:00[America/Chicago]\\""}],"isError":false}}
+14:16:12,854 |-ERROR in ch.qos.logback.classic.PatternLayout("") - Empty or null pattern.
+< 2025/09/02 14:16:14.000492177  length=294 from=0 to=293
+{"jsonrpc":"2.0","id":"b0a5fd4a-0","result":{"protocolVersion":"2024-11-05","capabilities":{"completions":{},"logging":{},"prompts":{"listChanged":true},"resources":{"subscribe":false,"listChanged":true},"tools":{"listChanged":true}},"serverInfo":{"name":"my-tools-server","version":"0.0.1"}}}
+> 2025/09/02 14:16:14.000755529  length=55 from=180 to=234
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+> 2025/09/02 14:16:14.000767408  length=70 from=235 to=304
+{"jsonrpc":"2.0","method":"tools/list","id":"b0a5fd4a-1","params":{}}
+< 2025/09/02 14:16:14.000781578  length=829 from=294 to=1122
+{"jsonrpc":"2.0","id":"b0a5fd4a-1","result":{"tools":[{"name":"add","description":"Adds two numbers together","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"First number"},"b":{"type":"integer","format":"int64","description":"Second number"}},"required":["a","b"],"additionalProperties":false}},{"name":"getCurrentDateTime","description":"Get the current date and time in the user's timezone","inputSchema":{"type":"object","properties":{},"required":[],"additionalProperties":false}},{"name":"subtract","description":"Subtracts number b from a","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"Number a"},"b":{"type":"integer","format":"int64","description":"Number b"}},"required":["a","b"],"additionalProperties":false}}]}}
+> 2025/09/02 14:16:14.000810094  length=112 from=305 to=416
+{"jsonrpc":"2.0","method":"tools/call","id":"b0a5fd4a-2","params":{"name":"getCurrentDateTime","arguments":{}}}
+< 2025/09/02 14:16:14.000845071  length=157 from=1123 to=1279
+{"jsonrpc":"2.0","id":"b0a5fd4a-2","result":{"content":[{"type":"text","text":"\\"2025-09-02T14:16:14.823774422-05:00[America/Chicago]\\""}],"isError":false}}
+> 2025/09/02 14:21:49.000800979  length=180 from=0 to=179
+{"jsonrpc":"2.0","method":"initialize","id":"e06b9cc0-0","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"Java SDK MCP Client","version":"1.0.0"}}}
+14:21:50,651 |-ERROR in ch.qos.logback.classic.PatternLayout("") - Empty or null pattern.
+< 2025/09/02 14:21:52.000259505  length=294 from=0 to=293
+{"jsonrpc":"2.0","id":"e06b9cc0-0","result":{"protocolVersion":"2024-11-05","capabilities":{"completions":{},"logging":{},"prompts":{"listChanged":true},"resources":{"subscribe":false,"listChanged":true},"tools":{"listChanged":true}},"serverInfo":{"name":"my-tools-server","version":"0.0.1"}}}
+> 2025/09/02 14:21:52.000450155  length=55 from=180 to=234
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+> 2025/09/02 14:21:52.000454532  length=70 from=235 to=304
+{"jsonrpc":"2.0","method":"tools/list","id":"e06b9cc0-1","params":{}}
+< 2025/09/02 14:21:52.000489373  length=829 from=294 to=1122
+{"jsonrpc":"2.0","id":"e06b9cc0-1","result":{"tools":[{"name":"add","description":"Adds two numbers together","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"First number"},"b":{"type":"integer","format":"int64","description":"Second number"}},"required":["a","b"],"additionalProperties":false}},{"name":"getCurrentDateTime","description":"Get the current date and time in the user's timezone","inputSchema":{"type":"object","properties":{},"required":[],"additionalProperties":false}},{"name":"subtract","description":"Subtracts number b from a","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"Number a"},"b":{"type":"integer","format":"int64","description":"Number b"}},"required":["a","b"],"additionalProperties":false}}]}}
+> 2025/09/02 14:21:52.000522321  length=112 from=305 to=416
+{"jsonrpc":"2.0","method":"tools/call","id":"e06b9cc0-2","params":{"name":"getCurrentDateTime","arguments":{}}}
+< 2025/09/02 14:21:52.000560009  length=157 from=1123 to=1279
+{"jsonrpc":"2.0","id":"e06b9cc0-2","result":{"content":[{"type":"text","text":"\\"2025-09-02T14:21:52.537168024-05:00[America/Chicago]\\""}],"isError":false}}
+> 2025/09/02 14:21:52.000593183  length=108 from=417 to=524
+{"jsonrpc":"2.0","method":"tools/call","id":"e06b9cc0-3","params":{"name":"add","arguments":{"b":3,"a":5}}}
+< 2025/09/02 14:21:52.000601884  length=102 from=1280 to=1381
+{"jsonrpc":"2.0","id":"e06b9cc0-3","result":{"content":[{"type":"text","text":"8"}],"isError":false}}
+> 2025/09/04 04:28:18.000651954  length=180 from=0 to=179
+{"jsonrpc":"2.0","method":"initialize","id":"1c15a0ed-0","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"Java SDK MCP Client","version":"1.0.0"}}}
+04:28:20,125 |-ERROR in ch.qos.logback.classic.PatternLayout("") - Empty or null pattern.
+< 2025/09/04 04:28:22.000029938  length=294 from=0 to=293
+{"jsonrpc":"2.0","id":"1c15a0ed-0","result":{"protocolVersion":"2024-11-05","capabilities":{"completions":{},"logging":{},"prompts":{"listChanged":true},"resources":{"subscribe":false,"listChanged":true},"tools":{"listChanged":true}},"serverInfo":{"name":"my-tools-server","version":"0.0.1"}}}
+> 2025/09/04 04:28:22.000189306  length=55 from=180 to=234
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+> 2025/09/04 04:28:22.000198800  length=70 from=235 to=304
+{"jsonrpc":"2.0","method":"tools/list","id":"1c15a0ed-1","params":{}}
+< 2025/09/04 04:28:22.000216273  length=829 from=294 to=1122
+{"jsonrpc":"2.0","id":"1c15a0ed-1","result":{"tools":[{"name":"add","description":"Adds two numbers together","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"First number"},"b":{"type":"integer","format":"int64","description":"Second number"}},"required":["a","b"],"additionalProperties":false}},{"name":"getCurrentDateTime","description":"Get the current date and time in the user's timezone","inputSchema":{"type":"object","properties":{},"required":[],"additionalProperties":false}},{"name":"subtract","description":"Subtracts number b from a","inputSchema":{"type":"object","properties":{"a":{"type":"integer","format":"int64","description":"Number a"},"b":{"type":"integer","format":"int64","description":"Number b"}},"required":["a","b"],"additionalProperties":false}}]}}
+> 2025/09/04 04:28:22.000271213  length=112 from=305 to=416
+{"jsonrpc":"2.0","method":"tools/call","id":"1c15a0ed-2","params":{"name":"getCurrentDateTime","arguments":{}}}
+< 2025/09/04 04:28:22.000314939  length=157 from=1123 to=1279
+{"jsonrpc":"2.0","id":"1c15a0ed-2","result":{"content":[{"type":"text","text":"\\"2025-09-04T04:28:22.288931029-05:00[America/Chicago]\\""}],"isError":false}}
+> 2025/09/04 04:28:22.000344041  length=108 from=417 to=524
+{"jsonrpc":"2.0","method":"tools/call","id":"1c15a0ed-3","params":{"name":"add","arguments":{"b":3,"a":5}}}
+< 2025/09/04 04:28:22.000352618  length=102 from=1280 to=1381
+{"jsonrpc":"2.0","id":"1c15a0ed-3","result":{"content":[{"type":"text","text":"8"}],"isError":false}}

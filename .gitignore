@@ -2,3 +2,4 @@ dbfiles
 logfile
 *.txt
 .vscode
+*-workspace

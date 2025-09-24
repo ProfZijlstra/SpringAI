@@ -1,0 +1,23 @@
+meta {
+  name: Initialize
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/mcp
+  body: json
+  auth: inherit
+}
+
+headers {
+  Accept: application/json,text/event-stream
+}
+
+body:json {
+  {"jsonrpc":"2.0","method":"initialize","id":"84e6b858-0","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"Java SDK MCP Client","version":"1.0.0"}}}
+}
+
+settings {
+  encodeUrl: true
+}

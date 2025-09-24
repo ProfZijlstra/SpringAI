@@ -1,0 +1,67 @@
+2025-09-08T08:52:50.953-05:00  INFO 386926 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 386926 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T08:52:50.955-05:00  INFO 386926 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T08:52:51.740-05:00  INFO 386926 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T08:52:51.741-05:00  INFO 386926 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T08:52:51.741-05:00  INFO 386926 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T08:52:51.742-05:00  INFO 386926 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T08:52:51.743-05:00  INFO 386926 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T08:52:51.849-05:00  INFO 386926 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-tools, version=1.0.0]
+2025-09-08T08:52:51.923-05:00  INFO 386926 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.422 seconds (process running for 1.806)
+2025-09-08T08:54:21.650-05:00  INFO 388180 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 388180 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T08:54:21.651-05:00  INFO 388180 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T08:54:22.447-05:00  INFO 388180 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T08:54:22.448-05:00  INFO 388180 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T08:54:22.449-05:00  INFO 388180 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T08:54:22.449-05:00  INFO 388180 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T08:54:22.450-05:00  INFO 388180 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T08:54:22.555-05:00  INFO 388180 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-tools, version=1.0.0]
+2025-09-08T08:54:22.607-05:00  INFO 388180 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.344 seconds (process running for 1.701)
+2025-09-08T09:01:03.616-05:00  INFO 393473 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 393473 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T09:01:03.618-05:00  INFO 393473 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T09:01:04.417-05:00  INFO 393473 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T09:01:04.419-05:00  INFO 393473 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T09:01:04.419-05:00  INFO 393473 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T09:01:04.420-05:00  INFO 393473 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T09:01:04.420-05:00  INFO 393473 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T09:01:04.530-05:00  INFO 393473 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=test - server1, version=1.0.0]
+2025-09-08T09:01:04.587-05:00  INFO 393473 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.415 seconds (process running for 1.799)
+2025-09-08T10:45:32.297-05:00  INFO 452706 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 452706 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T10:45:32.298-05:00  INFO 452706 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T10:45:33.023-05:00  INFO 452706 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T10:45:33.025-05:00  INFO 452706 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T10:45:33.025-05:00  INFO 452706 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T10:45:33.026-05:00  INFO 452706 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T10:45:33.026-05:00  INFO 452706 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T10:45:33.137-05:00  INFO 452706 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - test, version=1.0.0]
+2025-09-08T10:45:33.205-05:00  INFO 452706 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.321 seconds (process running for 1.667)
+2025-09-08T10:47:23.097-05:00  INFO 454195 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 454195 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T10:47:23.098-05:00  INFO 454195 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T10:47:23.882-05:00  INFO 454195 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T10:47:23.884-05:00  INFO 454195 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T10:47:23.884-05:00  INFO 454195 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T10:47:23.885-05:00  INFO 454195 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T10:47:23.885-05:00  INFO 454195 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T10:47:24.014-05:00  INFO 454195 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - test, version=1.0.0]
+2025-09-08T10:47:24.088-05:00  INFO 454195 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.418 seconds (process running for 1.797)
+2025-09-08T10:47:52.426-05:00  INFO 454195 --- [boundedElastic-1] edu.miu.spring_ai_demo.DateTimeTool      : Tool called: getCurrentDateTime
+2025-09-08T10:49:24.983-05:00  INFO 454195 --- [boundedElastic-2] edu.miu.spring_ai_demo.DateTimeTool      : Tool called: getCurrentDateTime
+2025-09-08T10:52:13.177-05:00  INFO 457736 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 457736 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T10:52:13.179-05:00  INFO 457736 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T10:52:13.994-05:00  INFO 457736 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T10:52:13.995-05:00  INFO 457736 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T10:52:13.995-05:00  INFO 457736 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T10:52:13.996-05:00  INFO 457736 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T10:52:13.997-05:00  INFO 457736 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T10:52:14.121-05:00  INFO 457736 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - test, version=1.0.0]
+2025-09-08T10:52:14.191-05:00  INFO 457736 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.466 seconds (process running for 1.865)
+2025-09-08T10:52:29.474-05:00  INFO 457736 --- [boundedElastic-1] edu.miu.spring_ai_demo.DateTimeTool      : Tool called: getCurrentDateTime
+2025-09-08T11:14:47.445-05:00  INFO 473641 --- [main] e.m.s.SpringAiMcpStdioServer             : Starting SpringAiMcpStdioServer v0.0.1-SNAPSHOT using Java 21.0.8 with PID 473641 (/mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client/demo.springai.tool.mcp.server-0.0.1.jar started by mzijlstra in /mnt/sd/Documents/Courses/CS544 EA/2025-10/Code/examples/SpringAI/tool_mcp_client)
+2025-09-08T11:14:47.447-05:00  INFO 473641 --- [main] e.m.s.SpringAiMcpStdioServer             : No active profile set, falling back to 1 default profile: "default"
+2025-09-08T11:14:48.334-05:00  INFO 473641 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-09-08T11:14:48.336-05:00  INFO 473641 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 4
+2025-09-08T11:14:48.336-05:00  INFO 473641 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-09-08T11:14:48.337-05:00  INFO 473641 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-09-08T11:14:48.338-05:00  INFO 473641 --- [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-09-08T11:14:48.499-05:00  INFO 473641 --- [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - my-server, version=1.0.0]
+2025-09-08T11:14:48.580-05:00  INFO 473641 --- [main] e.m.s.SpringAiMcpStdioServer             : Started SpringAiMcpStdioServer in 1.645 seconds (process running for 1.992)
+2025-09-08T11:15:05.606-05:00  INFO 473641 --- [boundedElastic-1] edu.miu.spring_ai_demo.CalculatorTool    : adding 12345 345

@@ -1,5 +1,7 @@
 package edu.miu.spring_ai_demo;
 
+import org.springframework.ai.chat.client.ChatClient;
+import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.model.NoopApiKey;
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.ai.openai.OpenAiChatOptions;
@@ -16,17 +18,8 @@ public class SpringAiDemoApplication {
 	}
 
 	@Bean
-	public OpenAiApi chatCompletionApi() {
-		return OpenAiApi.builder()
-				.baseUrl("http://localhost:11434")
-				.apiKey(new NoopApiKey()).build();
-	}
-
-	@Bean
-	public OpenAiChatModel openAiClient(OpenAiApi openAiApi) {
-		return OpenAiChatModel.builder()
-				.openAiApi(openAiApi)
-				.defaultOptions(OpenAiChatOptions.builder().model("llama3.2").build())
-				.build();
+	public ChatClient chatClient(ChatModel chatModel) {
+		ChatClient.Builder builder = ChatClient.builder(chatModel);
+		return builder.build(); // no customization at this point in time
 	}
 }

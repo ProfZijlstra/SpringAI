@@ -19,7 +19,3 @@ public class SpringAiDemoApplication {
 		return builder.build(); // no customization at this point in time
     }
 }
-
-
-// return builder.defaultSystem("You are a military recruit and should begin and end every answer with 'Sir'")
-// .build();

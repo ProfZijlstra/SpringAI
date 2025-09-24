@@ -147,7 +147,7 @@ public class WebCrawler {
         crawler.setUrlContains(List.of("spring-ai/reference"));
         crawler.setUrlNotContains(List.of("#", "/1.0/"));
         crawler.setMaxPages(500); // Limit to 500 pages
-        crawler.setDelayMs(200); // 0.2 seconds between requests
+        crawler.setDelayMs(100); // 0.2 seconds between requests
 
         String startUrl = "https://docs.spring.io/spring-ai/reference/";
         List<org.springframework.ai.document.Document> pages = crawler.crawl(startUrl);

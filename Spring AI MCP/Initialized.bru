@@ -1,0 +1,24 @@
+meta {
+  name: Initialized
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/mcp
+  body: json
+  auth: inherit
+}
+
+headers {
+  Accept: application/json,text/event-stream
+  mcp-session-id: 81394239-1cbe-498a-818f-cc7f7b1005cc
+}
+
+body:json {
+  {"jsonrpc":"2.0","method":"notifications/initialized"}
+}
+
+settings {
+  encodeUrl: true
+}

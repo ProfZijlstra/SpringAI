@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Spring AI MCP",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
